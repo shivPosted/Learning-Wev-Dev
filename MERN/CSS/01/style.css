@@ -1,0 +1,28 @@
+h1{
+  font-size: x-small;
+  text-align: center;
+}
+p{
+  background-color: black;
+  color: orange;
+}
+
+#article01{
+  background-color: orange;
+  color: grey;
+}
+
+.para{
+  background-color: aquamarine;
+  color: brown;
+}
+
+h1, p, article{
+  width: 400px;
+}
+
+p.para02{
+  background-color: azure;
+  color: goldenrod;
+  text-align: end;
+}

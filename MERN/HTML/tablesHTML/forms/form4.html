@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Job Application</h1>
+    <form action="">
+        <label for="name">Name:</label>
+        <br/>
+        <input type="text" id="name">
+        <br/>
+        <label for="email">Email:</label>
+        <br/>
+        <input type="email" id="email">
+        <br/>
+        <label for="Phone">Phone:</label>
+        <br/>
+        <input type="tel" id="Phone">
+        <br/>
+        <label for="resume">Resume:</label>
+        <br/>
+        <input type="file" id="resume">
+        <br/>
+        <label for="experience">Experience In Years:</label>
+        <br/>
+        <input type="number" id="experience" min="0" max="50">
+        <br/>
+        <fieldset>
+            <legend>Skills:</legend>
+            <label for="checkbox1">HTML</label>
+            <br/>
+            <input type="checkbox" id="checkbox1">
+            <br/>
+            <label for="checkbox2">CSS</label>
+            <br/>
+            <input type="checkbox" id="checkbox2">
+            <br/>
+            <label for="checkbox3">JavaScript</label>
+            <br/>
+            <input type="checkbox" id="checkbox3">
+            <br/>
+        </fieldset>
+        <br/>
+        <label for="dropdown">Highest Education</label>
+        <select name="list" id="dropdown">
+            <option value="">--Seclect an option--</option>
+            <option value="High School">High Shool</option>
+            <option value="Graduate">Graduation</option>
+            <option value="Post Graduate">Post Graduation</option>
+        </select>
+        <fieldset>
+            <legend>Availability</legend>
+        <label for="radio1">Full-time</label>
+        <br/>
+        <input type="radio" name="availability" id="radio1">
+        <br/>
+        <label for="radio2">Part-time</label>
+        <br/>
+        <input type="radio" name="availability" id="radio2">
+    </fieldset>
+        <label for="textarea">Additional Comments</label>
+        <br/>
+        <textarea name="comments" id="textarea" cols="30" rows="2"></textarea>
+        <input type="reset" value="Reset Values">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
