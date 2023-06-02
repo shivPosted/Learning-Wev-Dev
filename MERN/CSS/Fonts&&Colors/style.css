@@ -1,0 +1,39 @@
+#firstPara{
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #e599f7;
+  background-color: #f3d9fa;
+}
+#secondPara{
+  font-style: oblique;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-weight: lighter;
+  line-height: 30px;
+  background-color: rgb(229, 219, 255);
+  color: rgb(151, 117, 250);
+}
+ #thirdPara{
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-weight: 1000;
+  background-color: HSL(185deg, 84%, 88%);
+  color: HSL(187deg, 69%, 55%);
+ }
+ #fourthPara{
+  font-style: normal;
+  font-family: 'Calligraffitti', cursive;
+  font-size: large;
+  font-weight: 1000;
+ background-color: #fff3bf;
+ color: #ffd43b;
+ }
+ .para{
+  text-align: center;
+  max-width: 50%;
+  border-radius: 20px;
+ }
